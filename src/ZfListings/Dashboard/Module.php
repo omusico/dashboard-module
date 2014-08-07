@@ -20,6 +20,7 @@ class Module extends AbstractModule
     public function getModuleDependencies()
     {
         return [
+            'Tryd\Dashboard',
             'ZfListings\Base',
         ];
     }

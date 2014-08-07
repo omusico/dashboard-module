@@ -19,6 +19,7 @@
 	}],
 	"require": {
 		"tryd/zf2-base": ">=0.1",
+		"tryd/zf2-dashboard": ">=0.1",
 		"zf-listings/base-module": ">=0.1"
 	},
 	"require-dev": {
