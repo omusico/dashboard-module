@@ -1,0 +1,34 @@
+{
+	"name": "zf-listings/dashboard-module",
+	"description": "",
+	"version" : "0.1.0",
+	"type": "module",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"zf2",
+		"zf-listings",
+		"listings",
+		"classifieds",
+		"dashboard"
+	],
+	"homepage": "https://github.com/zf-listings/dashboard-module",
+	"authors": [{
+		"name": "Yassel Avila",
+		"email": "yassel.avila@gmail.com",
+		"homepage": "http://yasselavila.com/"
+	}],
+	"require": {
+		"tryd/zf2-base": ">=0.1",
+		"tryd/zf2-dashboard": ">=0.1",
+		"zf-listings/base-module": ">=0.1"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"ZfListings\\Dashboard\\": "src/"
+		},
+		"classmap": [ "./" ]
+	}
+}
