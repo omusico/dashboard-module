@@ -7,7 +7,7 @@ return [
                     'type'     => 'gettext',
                     'base_dir' => __DIR__ . '/../language',
                     'pattern'  => '%s.mo',
-                    'text_domain' => 'ZfListings\UserDashboard',
+                    'text_domain' => 'ZfListings\Dashboard',
                 ],
             ],
         ],

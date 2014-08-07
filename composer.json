@@ -1,19 +1,17 @@
 {
-	"name": "zf-listings/user-dashboard-module",
+	"name": "zf-listings/dashboard-module",
 	"description": "",
 	"version" : "0.1.0",
 	"type": "module",
 	"license": "BSD-3-Clause",
 	"keywords": [
 		"zf2",
+		"zf-listings",
 		"listings",
 		"classifieds",
-		"zf-listings",
-		"user dashboard",
-		"user",
 		"dashboard"
 	],
-	"homepage": "https://github.com/zf-listings/user-dashboard-module",
+	"homepage": "https://github.com/zf-listings/dashboard-module",
 	"authors": [{
 		"name": "Yassel Avila",
 		"email": "yassel.avila@gmail.com",
@@ -28,7 +26,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"ZfListings\\UserDashboard\\": "src/"
+			"ZfListings\\Dashboard\\": "src/"
 		},
 		"classmap": [ "./" ]
 	}
